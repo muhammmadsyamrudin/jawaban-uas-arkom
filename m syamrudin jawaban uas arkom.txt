@@ -1,0 +1,64 @@
+1. Dalam arsitektur komputer ada 4 komponen Utama CPU, Sebutkan dan jelaskan kegunanaanya?
+2. Control Unit adalah bagian dari komputer yang menggenerasi signal yang mengontrol operasi
+komputer, sebutkan jenis apa saja yang termasuk Control Unit?
+3. Set instruksi (instruction set) adalah sekumpulan lengkap instruksi yang dapat di mengerti oleh sebuah
+CPU. Set instruksi sering juga disebut sebagai bahasa mesin . sebutkan macam-macam format
+Instruksi?
+4. Direct Memory Access (DMA) adalah suatu metode transfer data dari memori komputer atau RAM ke
+suatu bagian dari komputer tanpa memprosesnya menggunakan CPU. Sebutkan kelebihan
+menggunakan DMA ?
+5. Pipeline adalah mesin yang melaksanakan beberapa komputasi yang berbeda secara bersama-sama
+,namun pada saat itu setiap komputasi akan berada dalam tahapan eksekusi yang berbeda. Sebutkan
+dua kategori Pipeline ?
+
+jawaban :
+
+1.A. ALU (Arithmatic Logical Unit)
+
+salah satu bagian/komponen dalam di dalam sistem komputer yang  berfungsi melakukan operasi/perhitungan aritmatika dan logika (penjumlahan, pengurangan dan beberapa logika lain).
+
+  B. CU (Control Unit)
+
+merupakan salah satu bagian dari CPU yang bertugas untuk memberikan arahan/kendali/ kontrol terhadap operasi yang dilakukan oleh ALU (Arithmetic Logical Unit) di dalam CPU.
+
+Fungsi Control Unit :
+
+Mengatur & mengendalikan alat-alat input dan output.
+Mengambil instruksi-instruksi dari memori utama.
+Mengambil data dari memori utama (jika diperlukan).
+Mengirim instruksi ke ALU bila ada perhitungan aritmatika atau perbandingan logika serta mengawasi kerja dari ALU.
+Menyimpan hasil proses ke memori utama.
+  C. Register
+
+Merupakan memori yang terdapat di dalam CPU, register adalah Alat penyimpanan kecil dgn kecepatan akses yang tinggi, yangg digunakan untuk menyimpan data dan instruksi yang sedang diproses, sementara data dan instruksi lainnya menunggu giliran untuk diproses, masih disimpan di dalam memori utama.
+
+Jenis Jenis Register :
+Instruction Register (IR) digunakan untuk menyimpan instruksi yang sedang diproses.
+Program Counter (PC) digunakan untuk menyimpan alamat lokasi dari memori utama yang berisi instruksi yang sedang diproses.  Selama pemrosesan instruksi, isi PC diubah menjadi alamat dari memori utama yang berisi instruksi berikutnya.
+General purpose register, punya kegunaan umum yang berhubungan dengan data yang sedang diproses.  Contoh, yg digunakan untuk menampung data disebut operand register, untuk menampung hasil disebut accumulator.
+Memory data register (MDR) digunakan untuk menampung data atau instruksi hasil pengiriman dari memori utama ke CPU atau menampung data yg akan direkam ke memori utama, hasil pengolahan oleh CPU.
+Memory address register (MAR) digunakan untuk menampung alamat data atau instruksi pada memori utama yg akan diambil atau yg akan diletakkan.
+  D. CPU Interconection
+    Merupakan alur transefer data/perintah yang diberikan yang menghubungkan ALU, CU dan REGISTER.
+2. a. Sequence Logic
+     Sequence berarti urutan, sedangkan logic berarti suatu yang dapat diterima pikiran atau akal manusia, jadi dapat diartikan, sequencing logic berarti proses pengurutan langkah-langkah kerja komputer secara logis. Dalam teori sirkuit digital, sequence logic adalah tipe sirkuit logis dimana outputnya tidak hanya bergantung pada nilai input sinyal yang akan datang, akan tetapi juga nilai input di sudah ada terlebih dahulu. mudahnya, sequence logic adalah rangkaian  digital yang digerakkan untuk mengatur urutan operasi internal CPU.
+   b. Control unit Register and Decoders
+     Control unit Register and Decoders ialah register tempat meletakkan dan menerjemahkan instruksi. Instruksi yang dimaksud disini ialah instruksi yang dapat dimengerti oleh CPU diatasnya.
+   c. Control Memory
+     Control Memory ialah tempat terdapatnya program ataupun mikroprogram yang dapat menggerakkan proses sequencing sampai peletakkan dan penerjemahan instruksi.
+3. Format Instruksi Op Code Alamat
+• Kode Operasi (Op Code) direpresentasikan dengan singkatan-singkatan yang disebut mnemonic.
+• Contoh Mnemonic
+o ADD = Penambahan
+o SUBB = Pengurangan
+o LOAD = Muatkan data ke memori
+
+Simak lebih lanjut di Brainly.co.id - https://brainly.co.id/tugas/13312594#readmore
+4.beberapa kelebihan dari Direct Memory Access (DMA) adalah sebagai berikut :
+-Dapat menirukan sebagian fungsi processor.
+-Dapat mengambil alih fungsi processor yang berhubungan dengan transfer data.
+-CPU dapat melakukan manajemen operasi baca tulis (transfer data) dengan baik dan juga dapat menyelesaikan instruksi lain.
+-Mendapat informasi tentang jumlah data bit yang ditransfer , alamat dari device dan memory yang diperlukan dan arah dari aliran data. 
+5.
+-Pipeline Unit Arithmetic : berguna untuk operasi vector
+-Pipeline Unit Instruction : berguna untuk komputer yang mempunyai set instruksi yang sederhana
